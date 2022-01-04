@@ -12,7 +12,7 @@ public class RemovehtmlStringsInaString {
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine();
         System.out.println(input);
-        input= input.replaceAll("\\<.*?\\>","");
+        input= input.replaceAll("<.*?>","");
         System.out.println(input);
 
 
